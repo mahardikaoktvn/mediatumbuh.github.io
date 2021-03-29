@@ -1,0 +1,102 @@
+:root {
+    /* background-color: rgb(71, 71, 71); */
+    /* background-image: "https://source.unsplash.com/WLUHO9A_xik/1600x900"; */
+    background: url("https://source.unsplash.com/xDwEa2kaeJA/1600x900");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.admin {
+    max-width: 500px;
+    background: #f4f7f8;
+    margin: 20px auto;
+    padding: 50px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.admin legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.admin label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.admin input[type="text"],
+.admin input[type="password"],
+.admin input[type="number"],
+.admin input[type="time"],
+.admin input[type="tel"],
+.admin textarea,
+.admin select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.admin select {
+    -webkit-appearance: menulist-button;
+    height: 35px;
+}
+
+.admin .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.admin input[type="submit"],
+.admin input[type="button"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: auto;
+    border: 1px solid #16a085;
+    border-radius: 20px;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.admin input[type="submit"]:hover,
+.admin input[type="button"]:hover {
+    background: #109177;
+}
