@@ -4,7 +4,7 @@
     background-size: cover;
 }
 
-.admin {
+.harga {
     max-width: 500px;
     background: #f4f7f8;
     margin: 20px auto;
@@ -20,16 +20,14 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.admin label {
+.harga label {
     display: block;
     margin-bottom: 8px;
 }
 
-.admin input[type="text"],
-.admin input[type="password"],
-.admin input[type="number"],
-.admin input[type="tel"],
-.admin select {
+.harga input[type="date"],
+.harga input[type="number"],
+.harga select {
     font-family: Georgia, "Times New Roman", Times, serif;
     background: rgba(255, 255, 255, .1);
     border: none;
@@ -49,12 +47,12 @@ h2 {
     margin-bottom: 30px;
 }
 
-.admin select {
+.harga select {
     -webkit-appearance: menulist-button;
     height: 35px;
 }
 
-.admin input[type="submit"] {
+.harga input[type="submit"] {
     position: relative;
     display: block;
     padding: 19px 39px 18px 39px;
@@ -71,6 +69,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-.admin input[type="submit"]:hover {
+.harga input[type="submit"]:hover {
     background: #109177;
 }
