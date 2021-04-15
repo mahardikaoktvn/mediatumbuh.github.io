@@ -4,7 +4,7 @@
     background-size: cover;
 }
 
-.barang {
+.posting {
     max-width: 500px;
     background: #f4f7f8;
     margin: 20px auto;
@@ -20,13 +20,13 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.barang label {
+.posting label {
     display: block;
     margin-bottom: 8px;
 }
 
-.barang input[type="text"],
-.barang input[type="file"] {
+.posting input[type="text"],
+.posting input[type="file"] {
     font-family: Georgia, "Times New Roman", Times, serif;
     background: rgba(255, 255, 255, .1);
     border: none;
@@ -46,7 +46,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.barang input[type="submit"] {
+.posting input[type="submit"] {
     position: relative;
     display: block;
     padding: 19px 39px 18px 39px;
@@ -63,8 +63,94 @@ h2 {
     margin-bottom: 10px;
 }
 
-.barang input[name=""]
-.barang input[type="submit"]:hover {
+.posting input[name=""]
+.posting input[type="submit"]:hover {
+    background: #109177;
+}
+
+::-webkit-file-upload-button {
+  background: #109177;
+    padding: 10px 10px 10px 10px;
+    color: #FFF;
+    margin: 2px;
+    background: #1abc9c;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    width: auto;
+    border: solid #16a085;
+    border-radius: 5px;
+    border-width: 1px 1px 3px;
+    margin-right: 10px;
+}
+
+:root {
+    background: url("https://source.unsplash.com/xDwEa2kaeJA/1600x900");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transfer {
+    max-width: 500px;
+    background: #f4f7f8;
+    margin: 20px auto;
+    padding: 50px;
+    background: #f4f7f8;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.transfer label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.transfer input[type="text"],
+.transfer input[type="file"] {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #5d5d5d;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.transfer input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: auto;
+    border: 1px solid #16a085;
+    border-radius: 20px;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.transfer input[name=""]
+.transfer input[type="submit"]:hover {
     background: #109177;
 }
 
