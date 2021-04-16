@@ -41,16 +41,8 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 768px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
+.new {
+  color: #1D2521;
 }
 
 /*========== BASE ==========*/
@@ -276,6 +268,7 @@ img {
 }
 
 .home__img {
+  margin-top: 40px;
   justify-self: center;
   border-radius: .5rem;
   justify-self: center;
